@@ -5,9 +5,9 @@
     <classes>
       <class name="test.NewTest2">
         <methods>
-          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
           <include name="f"/>
-          <include name="beforeClass"/>
         </methods>
       </class> <!-- test.NewTest2 -->
     </classes>
