@@ -3,6 +3,7 @@
   <test name="Test">
     <classes>
       <class name="test.NewTest"/>
+      <class name="test.NewTest2"/>
 
     </classes>
   </test> <!-- Test -->
