@@ -14,6 +14,7 @@ public class NewTest {
   @Test
   public void f() {
 	  	driver.manage().window().maximize();
+	  	System.out.println("Driver Intialized")
 		 driver.findElement(By.id("username")).sendKeys("nagendra123");
 		 driver.findElement(By.id("password")).sendKeys("25121999");
 		 driver.findElement(By.id("login")).click();
